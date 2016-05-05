@@ -7,7 +7,7 @@ var handRecycle;
 var hand = [];
 
 function setup() {
-  createCanvas(360, 640);
+  createCanvas(720, 1700);
   setFrameRate(60);
 
   for(i = 1; i < 7; i++){

@@ -19,7 +19,7 @@ var ParticleSystem = function(position, type) {
   };
 
   this.startSystem = function() {
-    setInterval(this.addParticle.bind(this), 2700);  //make intervals btw items
+    setInterval(this.addParticle.bind(this), 7000);  //make intervals btw items
   };
 
   this.run = function() {
