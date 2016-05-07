@@ -29,10 +29,12 @@ var Particle = function(position, img) {
     /////////////////////item IMAGE//////////////
     imageMode(CENTER);
     image(this.image, this.position.x, this.position.y, this.image.height/1.5, this.image.width/1.5); //this.image.height/10, this.image.width/10
+    
     //  stroke(200, this.lifespan);
     //  strokeWeight(2);
     //  fill(127, this.lifespan);
     //  ellipse(this.position.x, this.position.y, 12, 12);
+  
   };
 
   // Is the particle still useful?
