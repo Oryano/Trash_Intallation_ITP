@@ -31,8 +31,8 @@ function draw() {
   handRecycle.run();
 
   imageMode(CORNER);
-  image(hand[gifCount], width/4*3- 40, 0, 100 , 100);
-  image(hand[gifCount], width/4- 40 , 0, 100 , 100);
+  image(hand[gifCount], width/4*3- 40, 0, 200 , 200);
+  image(hand[gifCount], width/4- 40 , 0, 200 , 200);
 
   if(frameCount % 9 == 0){
     gifCount++;
