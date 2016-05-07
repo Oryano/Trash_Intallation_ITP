@@ -6,7 +6,7 @@
 var ParticleSystem = function(position, type) {
   this.possible_images = [];
   for (var i = 0; i <= 33; i ++) {
-     this.possible_images.push(loadImage('assets/' + type + '/' + i + '.jpg'));
+     this.possible_images.push(loadImage('assets/' + type + '/' + i + '.png'));
   }
 
 	this.origin = position.copy();

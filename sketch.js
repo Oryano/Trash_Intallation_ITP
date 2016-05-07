@@ -31,9 +31,9 @@ function draw() {
   background(0);
   
   //drawing quadrilateral for the background too look straight
-  fill(255,255,255);
-  noStroke();
-  quad(0, 0, 720, 0, 630, 1700, 90, 1700);
+  // fill(255,255,255);
+  // noStroke();
+  // quad(0, 0, 720, 0, 630, 1700, 90, 1700);
   
 
   handTrash.run();
